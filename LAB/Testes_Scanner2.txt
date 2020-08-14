@@ -1,0 +1,23 @@
+VR = VR + 5
+VR1 = 5 + 3 / 2
+VR = 
+2VR = 8 + VR
+VR = VR1A + 15 / 4
+VR = 10
+VR = VR1
+VR + 2 = VR1 + 15
+VR = VR + 5 *
+10 = 7 + 3
+VR = VR1 = 5 + 6
+VR = VR1 + 8 * VR2
+VR = 10 + 10 + VR + 10
+VR = VR12A
+VR = VR1 + 2 = 5 + 6
+VR = VR1 + 9 - VR
+VR = VR1 * VR2 + VR2A
+=VR = 15
+VR = VR1 * VR2 + VR3
+VR = +20 * VR1
+VR = VR1 * + 15
+VR1A = 8 + 4 - VR
+VR25B = VR + 3

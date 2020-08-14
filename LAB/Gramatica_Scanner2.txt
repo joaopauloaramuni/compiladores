@@ -1,0 +1,31 @@
+0 -> b0 | l1
+1 -> l1 | a2 | b3 | =4
+2 -> a2 | b3 | =4
+3 -> b3 | =4
+4 -> b4 | l5 | a6
+5 -> l5 | a6 | b7 | op4 | y
+6 -> a6 | b7 | op4 | y
+7 -> b7 | op4 | y
+
+Legenda:
+a - Algarismos
+l - Letras
+b - Branco
+op - Operadores
+y - Lambida
+
+Cuidado:
+1 = Número um
+l = Letra L
+
+Lembre-se de FTC:
+Gramáticas Regulares seguem o padrão:
+X -> a;
+X -> aZ;
+X -> y;
+
+Ou seja, o não-terminal X sempre 
+irá derivar em uma das opções:
+1) Um terminal a sozinho.
+2) Um terminal a concatenado a um não-terminal Z.
+3) Ou lambida.

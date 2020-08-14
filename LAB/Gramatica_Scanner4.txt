@@ -1,0 +1,54 @@
+0 -> b0 | /1 | l4
+1 -> *2
+2 -> *3 | qq2
+3 -> /0 | qq2 | *3
+4 -> l4 | a5 | b6 | /7 | =10
+5 -> a5 | b6 | /7 | =10
+6 -> b6 | /7 | =10
+7 -> *8
+8 -> qq8 | *9
+9 -> /6 | qq8 | *9
+10 -> b10 | /11 | l14 | a15
+11 -> *12
+12 -> qq12 | *13
+13 -> /10 | qq12 | *13
+14 -> l14 | a15 | b16 | /17 | op20
+15 -> a15 | b16 | /17 | op20
+16 -> b16 | /17 | op20
+17 -> *18 | /21 | b20 | l24 | a25
+18 -> qq18 | *19
+19 -> /16 | qq18 | *19
+20 -> b20 | /21 | l24 | a25
+21 -> *22
+22 -> qq22 | *23
+23 -> /20 | qq22 | *23
+24 -> l24 | a25 | b26 | /27 | op20 | y
+25 -> a25 | b26 | /27 | op20 | y
+26 -> b26 | /27 | op20 | y
+27 -> *28 | b20 | /21 | l24 | a25
+28 -> qq28 | *29
+29 -> /26 | qq28 | *29
+
+Legenda:
+a - Algarismos
+l - Letras
+b - Branco
+op - Operadores
+qq - Qualquer coisa
+y - Lambida
+
+Cuidado:
+1 = Número um
+l = Letra L
+
+Lembre-se de FTC:
+Gramáticas Regulares seguem o padrão:
+X -> a;
+X -> aZ;
+X -> y;
+
+Ou seja, o não-terminal X sempre 
+irá derivar em uma das opções:
+1) Um terminal a sozinho.
+2) Um terminal a concatenado a um não-terminal Z.
+3) Ou lambida.
