@@ -1,6 +1,10 @@
 # Compiladores
 Repo Compiladores
 
+Disciplina do curso de Ciência da Computação da Universidade FUMEC 
+
+(2016-2020)
+
 https://www.amazon.com.br/Compiladores-princ%C3%ADpios-ferramentas-Alfred-Aho/dp/8588639246
 <br>https://www.eclipse.org/downloads/packages/
 <br>https://www.bloodshed.net/
